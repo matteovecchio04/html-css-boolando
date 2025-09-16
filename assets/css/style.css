@@ -4,13 +4,48 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+:root{
+    --boo-primary-color: #ff6900;
+    --boo-white-color: #ffffff;
 
+}
 
+header{
+    background-color: var(--boo-primary-color);
+}
 
+.menu{
+    width: 80%;
+    margin: auto;
+    height: 4rem;
+
+    a{
+        color: var(--boo-white-color);
+        text-decoration: none;
+        margin-right: 3px;
+    }
+
+    .logo{
+        width: 150px;
+        height: 35px;
+    }
+}
+
+.mini-logo{
+    color: var(--boo-white-color);
+}
 
 
 
 /* common */
 .d-flex {
     display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
 }
